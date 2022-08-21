@@ -1,11 +1,11 @@
-@import './common';
+// @import './common';
 /*
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
  */
 
 // Стили для файла с примером HTML-фрагмента
-@import './example';
+// @import './example';
 
 h1 {
     display: none;
@@ -79,15 +79,28 @@ h1 {
     margin-bottom: 25px;
 }
 
-.load .load-more {
+// .load 
+.load-more {
     color: #eeeeee;
     background-color: #065ba0;
     border-radius: 3px;
     width: 120px;
     height: 30px;
     border: 1px;
+    margin: 0 auto;
+    display: block;
+}
+.load-more:hover {
+    background-color: #45aef8;
 }
 
 .is-hidden {
     display: none;
 }
+
+.alert {
+    display: none;
+              }
+
+
+

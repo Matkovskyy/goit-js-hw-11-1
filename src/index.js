@@ -1,4 +1,4 @@
-import './sass/index.scss';
+import './sass/main.scss';
 import fetchPictures from './fetchPictures';
 import LoadMoreBtn from './load-more-btn';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
