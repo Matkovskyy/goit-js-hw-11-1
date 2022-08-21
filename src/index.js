@@ -124,7 +124,6 @@ function renderPictures(pictures) {
   }
 }
 
-
 loadMoreButton.addEventListener('click', loadMore);
 
 function loadMore(event) {
